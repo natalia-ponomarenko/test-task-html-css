@@ -1,0 +1,28 @@
+{
+  "name": "Template-for-js-html",
+  "version": "1.0.0",
+  "description": "Template for js-html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalia-ponomarenko/Template-for-js-html.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "html",
+    "scss",
+    "javascript",
+    "parcel",
+    "eslint"
+  ],
+  "author": "Nataliia Ponomarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natalia-ponomarenko/Template-for-js-html/issues"
+  },
+  "homepage": "https://github.com/natalia-ponomarenko/Template-for-js-html#readme"
+}
