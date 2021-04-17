@@ -4,6 +4,8 @@
   "description": "Template for js-html",
   "main": "src/index.html",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build --out-dir dist --public-url ./ ./src/index.html",
     "start": "parcel serve ./src/index.html --open",
@@ -28,11 +30,12 @@
   "bugs": {
     "url": "https://github.com/natalia-ponomarenko/Template-for-js-html/issues"
   },
-  "homepage": "https://github.com/natalia-ponomarenko/Template-for-js-html#readme",
+  "homepage": "https://github.com/natalia-ponomarenko/test-task-html-css",
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
+    "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {}
